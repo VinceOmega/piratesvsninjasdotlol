@@ -97,6 +97,10 @@ header.masthead h1 {
   font-size: 2rem;
 }
 
+html body section.showcase div[data-herf].showcase-img{
+  cursor: pointer;
+}
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;

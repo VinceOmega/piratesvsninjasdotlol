@@ -44,6 +44,15 @@
 
     $('.carousel').carousel();
 
+    $(
+      $('.showcase div').each(function(idx){
+        if($(this).attr('data-herf') != void(0)){
+          $(this).click(function(){
+              window.location.href = $(this).data('herf');
+          })
+        }
+      })
+    );
 
 
   </script>
