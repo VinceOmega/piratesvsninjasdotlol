@@ -32,21 +32,21 @@
     <div class="container-fluid p-0">
       <div class="row no-gutters">
 
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" data-herf="" style="background-image: url('/img/map.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" data-herf="/story" style="background-image: url('/img/story.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Our Story So Far</h2>
+          <p class="lead mb-0">Learn about the central conflict of the Pirate vs Ninjas&copy; world!</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img" data-herf="/" style="background-image: url('/img/map.jpg');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
           <h2>The Sage Continues</h2>
           <p class="lead mb-0">Pirates vs Ninjas&copy; : Scurvvy into Darkness! &copy;</p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" data-herf="" style="background-image: url('/img/cast.jpg');"></div>
-        <div class="col-lg-6 my-auto showcase-text">
-          <h2>Meet Our Cast!</h2>
-          <p class="lead mb-0">Our leading men and women who bring the Pirates vs Ninjas&copy; world to life!</p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" data-herf="" style="background-image: url('/img/director.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" data-herf="/director" style="background-image: url('/img/director.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Beeven Steelsburg!</h2>
           <p class="lead mb-0">The Man, The Myth, The Legend!</p>

@@ -10,7 +10,10 @@
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
               <a href="#">IFT 301-86951</a>
-            </li>        
+            </li>
+            <li class="list-inline-item">
+              <a href="/works-cited">Works Cited</a>
+            </li>           
           </ul>
           <p class="text-muted small mb-4 mb-lg-0">Pirates vs Ninjas&copy;  2020. All Rights Reserved.</p>
         </div>
