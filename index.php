@@ -1,54 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Priates vs Ninjas: Scurvy into Darkness | Larry Stanfield IFT 301-86951</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/landing-page.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!-- Navigation -->
-  <nav id="pvn-top-nav" class="navbar navbar-light bg-dark static-top">
-    <ul class="container nav">
-      <li class="nav-item"><a href="/">Home</a></li>
-      <li class="nav-item"><a href="/story">Story</a></li>
-      <li class="nav-item"><a href="/cast">Cast</a></li>
-      <li class="nav-item"><a href="/theater">Theater</a></li>
-      <li class="nav-item"><a href="/director">Director</a></li>
-      <li class="nav-item"><a href="/lore">Lore</a></li>
-      <li class="nav-item"><a href="/reviews">Reviews</a></li>
-    </ul>
-  </nav>
-
-  <!-- Masthead -->
-  <header class="masthead text-white text-center">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">The Saga Continues</h1>
-        </div>
-      </div>
-    </div>
-  </header>
+  <?php set_include_path(realpath('./')) ;?>
+  <?php include 'includes/header.php' ; ?>
+  <?php include 'includes/hero.php' ;?>
 
   <section class="intro text-center bg-sand padding-vert-10">
     <div class="container">
@@ -102,35 +57,8 @@
     </div>
   </section>
 
-  <!-- Testimonials -->
-  <section class="testimonials text-center bg-primary">
-    <div class="container">
-      <h2 class="mb-5">What people are saying...</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-            <h5>Margaret E.</h5>
-            <p class="font-weight-light mb-0">"I love the ninjas! I'm a ninja gal"</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-            <h5>Fred S.</h5>
-            <p class="font-weight-light mb-0">"When Davy said 'Arrrrg', I felt that."</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-            <h5>Sarah W.</h5>
-            <p class="font-weight-light mb-0">"Maybe the real booty was the friends we made along the way!"</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <?php include 'includes/testimonal.php' ; ?>
+
 
   <!-- Call to Action -->
   <section class="call-to-action text-white text-center">
@@ -156,39 +84,8 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer bg-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-          <p class="text-muted small mb-4 mb-lg-0">Pirates vs Ninjas&copy;  2020. All Rights Reserved.</p>
-        </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php include 'includes/footer.php' ; ?>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
