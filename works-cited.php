@@ -4,24 +4,66 @@
   <?php set_include_path(realpath('./')) ;?>
   <?php include 'includes/header.php' ; ?>
 
-  <?php include 'includes/hero-theater.php' ; ?>
+  <?php include 'includes/hero-works.php' ; ?>
 
     <section class="intro text-center bg-sand padding-vert-10">
       <div class="container">
         <div class="row">
           <div class="col-12">
 
+            <h1>Works Cited</h1>
 
-            <h2>You can find us at your local theater!</h2>
+            <p>Here are the sources for all images used in this website.</p>
+            <p>Format: Image, Text file containing source.</p>
 
-            <iframe
-              width="100%"
-              height="450"
-              frameborder="0" style="border:0"
-              src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBULaVP8qnbECtMEul1FDaZmGbsHLOyibY
-                &q=movie+theathers+near+me" allowfullscreen>
-            </iframe>
+            <dl>
+                <dt><img src="/img/actor1.jpg"  width="20%"></dt>
+                <dd><a href="/img/actor1.txt">Citation</a></dd>
 
+                <dt><img src="/img/actress1.jpg"  width="20%"></dt>
+                <dd><a href="/img/actress1.txt">Citation</a></dd>
+
+                <dt><img src="/img/actress2.jpg"  width="20%"></dt>
+                <dd><a href="/img/actress2.txt">Citation</a></dd>
+
+                <dt><img src="/img/cast.jpg"  width="20%"></dt>
+                <dd><a href="/img/cast.txt">Citation</a></dd>
+
+                <dt><img src="/img/director.jpg"  width="20%"></dt>
+                <dd><a href="/img/director.txt">Citation</a></dd>
+
+                <dt><img src="/img/bg-masthead.jpg"  width="20%"></dt>
+                <dd><a href="/img/bg-masthead.txt">Citation</a></dd>
+
+                <dt><img src="/img/library.jpg"  width="20%"></dt>
+                <dd><a href="/img/library.txt">Citation</a></dd>
+
+                <dt><img src="/img/map.jpg"  width="20%"></dt>
+                <dd><a href="/img/map.txt">Citation</a></dd>
+
+                <dt><img src="/img/map2.jpg"  width="20%"></dt>
+                <dd><a href="/img/map2.txt">Citation</a></dd>
+
+                <dt><img src="/img/reviews.jpg"  width="20%"></dt>
+                <dd><a href="/img/reviews.txt">Citation</a></dd>
+
+                <dt><img src="/img/theaters.jpg"  width="20%"></dt>
+                <dd><a href="/img/theaters.txt">Citation</a></dd>
+
+                <dt><img src="/img/laruel.png"  width="20%"></dt>
+                <dd><a href="/img/lareul.text">Citation</a></dd>
+
+                <dt><img src="/img/testimonials-1.jpg"  width="20%"></dt>
+                <dd><a href="/img/testimonials-1.txt">Citation</a></dd>
+
+                <dt><img src="/img/testimonials-2.jpg"  width="20%"></dt>
+                <dd><a href="/img/testimonials-2.txt">Citation</a></dd>
+
+                <dt><img src="/img/testimonials-3.jpg"  width="20%"></dt>
+                <dd><a href="/img/testimonials-3.txt">Citation</a></dd>
+
+            </dl>
+   
           </div>
         </div>
       </div>

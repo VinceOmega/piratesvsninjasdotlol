@@ -9,7 +9,8 @@
         '/theater/' => 'Pirate vs Ninjas : Park your booty at your local theatre today!',
         '/director/' => 'Pirates vs Ninjas: Meet the visionary behind the magic!',
         '/lore/' => ' Pirates vs Ninjas: The Lore',
-        '/reviews/' => 'Pirates vs Ninjas: The critics love our booty! '
+        '/reviews/' => 'Pirates vs Ninjas: The critics love our booty! ',
+        '/works-cited/' => 'Works Cited'
 
   );
 
