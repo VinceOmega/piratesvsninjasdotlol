@@ -4,37 +4,26 @@
   <?php set_include_path(realpath('./')) ;?>
   <?php include 'includes/header.php' ; ?>
 
-  <?php include 'includes/hero-lore.php' ; ?>
+  <?php include 'includes/hero-reviews.php' ; ?>
 
-    <section class="intro text-center bg-sand padding-vert-10">
-      <div class="container">
+    <section class="intro text-center bg-dark padding-vert-10">
+      <div class="container container-reviews">
         <div class="row">
           <div class="col-12">
-
-
-<div class="tg-wrap"><table class="tg">
-<tbody>
-  <tr>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-</tbody>
-</table></div>
-
+            <div class="tg-wrap">
+              <table class="tg">
+                <tbody>
+                  <tr>
+                    <td class="tg-0lax"><img src="/img/laruel-french.png"></td>
+                    <td class="tg-0lax"><img src="/img/laruel-cupid.png"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax"><img src="/img/laruel-myself.png"></td>
+                    <td class="tg-0lax"><img src="/img/laruel-ninja.png"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>

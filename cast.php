@@ -4,6 +4,9 @@
   <?php set_include_path(realpath('./')) ;?>
   <?php include 'includes/header.php' ; ?>
 
+  <?php include 'includes/hero-cast.php' ; ?>
+
+
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">

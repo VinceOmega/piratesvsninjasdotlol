@@ -4,12 +4,12 @@
   <?php set_include_path(realpath('./')) ;?>
   <?php include 'includes/header.php' ; ?>
 
+  <?php include 'includes/hero-story.php' ; ?>
+
     <section class="intro text-center bg-sand padding-vert-10">
       <div class="container">
         <div class="row">
           <div class="col-12">
-
-            <h1>Our Story So Far!</h1>
 
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla nisl justo, vel luctus enim porta quis. Cras consequat, velit vel eleifend cursus, dolor magna efficitur quam, at rhoncus magna massa ac nibh. Sed euismod cursus enim et pharetra. Aenean sodales vulputate turpis in pretium. Nulla nec mauris nec arcu malesuada dictum. Duis a magna rhoncus, vestibulum tortor ut, pulvinar lectus. Fusce pretium quis nulla at efficitur. Morbi id metus id odio elementum commodo eu sed orci. Duis sollicitudin imperdiet venenatis. Sed pellentesque mauris sit amet blandit sollicitudin. Aliquam dictum lacus id lacus tempor sodales. Ut sapien massa, pharetra sed metus nec, dapibus vehicula justo. Nunc ultrices tempus arcu quis venenatis. Donec eget blandit ex. Pellentesque a commodo risus. Suspendisse feugiat accumsan diam, feugiat malesuada mi.
