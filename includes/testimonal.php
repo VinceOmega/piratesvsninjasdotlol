@@ -1,5 +1,5 @@
   <!-- Testimonials -->
-  <section class="testimonials text-center bg-primary">
+  <section class="testimonials text-center  text-white bg-primary">
     <div class="container">
       <h2 class="mb-5">What people are saying...</h2>
       <div class="row">
