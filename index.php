@@ -77,6 +77,18 @@
               <div class="col-12 col-md-3">
                 <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
               </div>
+              <div class="col-3 col-md-3 mb-2 mb-md-0">
+                <label>Team Pirate?</label>
+                <input type="radio" name="turndownforargh" class="form-control" value="priate">
+              </div>
+              <div class="col-3 col-md-3 mb-2 mb-md-0">
+                <label>Team Ninja?</label>
+                <input type="radio" name="turndownforargh" class="form-control" value="ninja">
+              </div>
+              <div class="col-3 col-md-3 mb-2 mb-md-0">
+                <label>Free Swag?</label>
+                <input type="checkbox" name="turndownforargh" class="form-control" value="ninja">
+              </div>
             </div>
           </form>
         </div>
